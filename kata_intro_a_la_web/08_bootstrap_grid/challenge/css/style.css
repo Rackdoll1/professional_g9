@@ -1,0 +1,77 @@
+body {
+  font-family: Helvetica,Arial,sans-serif;
+}
+
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  background-color: #9bf0e1;
+}
+
+.my-navbar {
+  /* height: 9vh; */
+}
+
+.nav-item > a {
+}
+
+.my-row-title {
+  padding: 5% 0;
+ text-align: center;
+}
+
+.my-row-title > h1 {
+  display: inline;
+  margin: auto;
+  font-weight: 900;
+  margin-bottom: 5%;
+}
+
+.my-container {
+  /* border: 1px solid; */
+  height: 100vh;
+}
+
+.my-row {
+  /* border: 1px red solid; */
+  height: 40vh;
+}
+
+.hija {
+  /* border: 1px solid blue; */
+  height: 50%;
+}
+
+.my-row2 {
+  /* border: 1px green solid; */
+  height: 50%;
+}
+
+.hija-izquierda {
+  /* border: 2px solid green; */
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: grey;
+  height: 50%;
+  width: 80%;
+}
+
+.hija-derecha {
+  /* border: 2px solid green; */
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hija-derecha > h2 {
+  font-size: 1.2rem;
+  font-weight: 600;
+}

@@ -1,0 +1,25 @@
+body {
+  background-color: #EFF7E1;
+}
+.mi-navbar {
+  background-color: #F8DC81;
+}
+
+.mi-navbar-brand {
+  color: #289672;
+  font-size: 2rem;
+}
+
+.my-nav-link {
+  color: black;
+}
+
+.my-submit-btn {
+  background-color: #289672;
+  color: white;
+}
+ .my-form {
+   border: 2px solid #A2D0C1;
+   border-radius: 6px;
+   margin-top: 12vh;
+ }

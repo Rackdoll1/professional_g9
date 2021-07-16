@@ -1,0 +1,52 @@
+body {
+  background-color: #eec4c4;
+}
+
+
+body > nav:first-child {
+  background-color: #94d0cc!important;
+}
+
+.header {
+  width: 60%;
+  padding: 2% 0 0;
+  margin: auto;
+}
+
+.header > h1 {
+  /* color: #f29191; */
+  color: white;
+  font-size: 2rem;
+}
+
+.my-btn-nav {
+  border-color: #4a7572;
+  color: #4a7572;
+}
+
+.my-btn-nav:hover {
+  background-color: #4a7572;
+}
+
+.carousel {
+  width: 60%;
+  height: 75%;
+  margin: auto;
+}
+
+.carousel-indicators > button {
+  background-color: #f29191!important;
+}
+
+.container-recetas {
+  width: 100%;
+  margin: 8% 5%;
+}
+
+.card-group {
+  width: 90%;
+}
+
+.card > img {
+  height: 240px;
+}

@@ -1,0 +1,14 @@
+.my-container {
+  border: 2px solid;
+  height: 70vh;
+}
+
+.my-row {
+  border: 1px red solid;
+  height: 30vh;
+}
+
+.hija {
+  border: 2px solid blue; 
+  height: 50%;
+}

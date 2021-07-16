@@ -1,0 +1,59 @@
+body {
+  font-family: sans-serif;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid rgb(87, 106, 232);
+}
+
+input:focus{
+  outline: none;
+  border-bottom: 2px solid rgb(34, 57, 212);
+}
+
+label {
+  padding: 0 1rem;
+}
+
+.inputs {
+  width: 20vw;
+  height: 3rem;
+  padding: 0 2rem;
+}
+
+#guardar{
+  border-radius: 6px;
+  background-color: rgb(34, 57, 212);
+  color: white;
+  border: none;
+  height: 1.7rem;
+  min-width: 120px;
+  margin: 0 2rem;
+}
+
+.form {
+  margin: 2rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.table, .column {
+  border: 2px solid rgb(34, 57, 212);
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.table {
+  margin: 4rem auto;
+}
+
+.head {
+  background-color: rgb(140, 153, 240);
+}
+
+.column {
+  min-width: 150px;
+  text-align: left;
+}

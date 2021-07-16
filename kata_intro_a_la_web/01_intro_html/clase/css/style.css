@@ -1,0 +1,16 @@
+body {
+  background-color: rgb(250, 230, 243);
+}
+
+h1 {
+  color: rgb(14, 71, 79);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(47, 123, 125);
+}
+
+img {
+  width: 300px
+}

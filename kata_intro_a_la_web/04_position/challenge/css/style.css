@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+div {
+  border: 2px solid;
+  background-color: white;
+}
+
+.d1 {
+  height: 15vw;
+  width: 20vw;
+  position: absolute;
+  left: 10vw;
+  top: 10vh;
+  z-index: -1;
+}
+
+.d2 {
+  height: 15vw;
+  width: 20vw;
+  position: absolute;
+  left: 25vw;
+  top: 28vh;
+  z-index: 0;
+}
+
+.d3 {
+  height: 15vw;
+  width: 45vw;
+  position: absolute;
+  left: 10vw;
+  bottom: 20vh;
+  z-index: 1;
+}
+
+.d4 {
+  height: 35vw;
+  width: 12vw;
+  position: absolute;
+  right: 38vw;
+  top: 5vh;
+  z-index: 2;
+}

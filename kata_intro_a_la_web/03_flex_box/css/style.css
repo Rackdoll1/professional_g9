@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* vh es viewport height, 100 sería relativo al 100% de la altura del viewport*/
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+.padre {
+  height: 40%;
+  width: 25%;
+  display: flex;
+  border: 2px solid rgb(173, 77, 66);
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.padre2 {
+  height: 40%;
+  width: 25%;
+  display: flex;
+  border: 2px solid rgb(130, 43, 116);
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hijo {
+  height: 25%;
+  width: 25%;
+  border: 2px solid rgb(233, 134, 69);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hijo2 {
+  height: 25%;
+  width: 25%;
+  border: 2px solid rgb(95, 219, 92);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nieto {
+  height: 15%;
+  width: 15%;
+  border: 2px solid;
+}

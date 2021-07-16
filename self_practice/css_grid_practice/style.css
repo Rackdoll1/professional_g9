@@ -1,0 +1,217 @@
+body {
+  margin: 0 auto;
+}
+
+.item {
+  border: 1px solid red;
+  background-color: white;
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.height-50 {
+  height: 50vh;
+}
+
+/* Pancake Stack */
+.task1 {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Simple 12 Columns Grid Layout */
+.task2 {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  column-gap: 12px;
+
+  align-items: center;
+}
+
+.task2_item1 {
+  grid-column: 2 / span 4;
+}
+
+.task2_item2 {
+  grid-column: 6 / span 6;
+}
+
+/* Responsive 12 column grid layout */
+.task3-1.container {
+  display: grid;
+  height: 100vh;
+
+  grid-template-rows: auto auto 1fr auto auto auto;
+  gap: 24px;
+}
+
+@media only screen and (min-width: 720px) {
+  .task3-1.container {
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto 1fr auto;
+  }
+
+  .task3-1 .header {
+    grid-column: 1 / span 12;
+  }
+
+  .task3-1 .navigation {
+    grid-column: 1 / span 12;
+  }
+
+  .task3-1 .main {
+    grid-column: 3 / span 10;
+  }
+
+  .task3-1 .sidebar {
+    grid-column: 1 / span 2;
+    /* specify from which row to start so it is, indeed, a sidebar*/
+    grid-row: 3;
+  }
+
+  .task3-1 .ads {
+    grid-column: 1 / span 2;
+  }
+
+  .task3-1 .footer {
+    grid-column: 3 / span 10;
+  }
+}
+
+@media only screen and (min-width: 1020px) {
+
+  .task3-1 .navigation {
+    grid-column: 3 / span 8;
+  }
+
+  .task3-1 .main {
+    grid-column: 3 / span 8;
+  }
+
+  .task3-1 .sidebar {
+    grid-row: 2 / span 2;
+  }
+
+  .task3-1 .ads {
+    grid-column: 11 / span 2;
+    grid-row: 2 / span 2;
+  }
+
+  .task3-1 .footer {
+    grid-column: 1 / span 12;
+  }
+
+}
+
+/* task 3.2 */
+
+.task3-2.container {
+  display: grid;
+  height: 100vh;
+
+  gap: 24px;
+
+  grid-template-rows: auto auto 1fr auto auto auto;
+
+  grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "sidebar"
+    "ads"
+    "footer";
+}
+
+.task3-2 .header {
+  grid-area: header;
+}
+
+.task3-2 .navigation {
+  grid-area: nav;
+}
+
+.task3-2 .main {
+  grid-area: main;
+}
+
+.task3-2 .sidebar {
+  grid-area: sidebar;
+}
+
+.task3-2 .ads {
+  grid-area: ads;
+}
+
+.task3-2 .footer {
+  grid-area: footer;
+}
+
+@media only screen and (min-width: 720px) {
+  .task3-2.container {
+    /* this makes the section take more number of columns */
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "sidebar main main"
+      "ads footer footer";
+
+    grid-template-rows: auto auto 1fr auto;
+  }
+
+@media only screen and (min-width: 1020px) {
+  .task3-2.container {
+    grid-template-areas:
+      "header header header header"
+      "sidebar nav nav ads"
+      "sidebar main main ads"
+      "footer footer footer footer";
+
+    grid-template-rows: auto auto 1fr auto;
+  }
+}
+
+/* Task 4, responsive without media queries */
+
+.task4.container {
+  display:grid;
+  gap: 24px;
+
+  /* auto-fit allows columns to expand or shrink according to space available */
+  /* auto-fill would adjust them but create "invisible" new columns if there is no more content in the html */
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.task4 .item-5 {
+  grid-column-end: span 2;
+}
+
+/* Task 5, chess grid */
+.task5.container {
+  display: grid;
+  height: 100vh;
+
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.task5 .item-1 {
+  grid-row: 1 / span 3;
+  grid-column: 1 / span 3;
+}
+
+.task5 .item-2 {
+  grid-row: 4 / span 3;
+  grid-column: 4 / span 3;
+}
+
+.task5 .item-3 {
+  grid-row: 7 / span 3;
+  grid-column: 7 / span 3;
+}
+
+.task5 .item-4 {
+  grid-row: 10 / span 3;
+  grid-column: 10 / span 3;
+}

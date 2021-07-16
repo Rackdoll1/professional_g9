@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: rgb(29, 200, 123);
+  height: 15vh;
+}
+
+main {
+  background-color: rgb(237, 91, 166);
+  height: 70vh;
+}
+
+h1 {
+  border: 1px solid;
+  margin: 0;
+}
+
+footer {
+  background-color: rgb(212, 212, 212);
+  height: 15vh;
+}

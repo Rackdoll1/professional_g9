@@ -1,0 +1,53 @@
+body {
+  background-color: rgb(5, 36, 108);
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.whiteCuadTop {
+  background-color: white;
+  height: 43.75%;
+  width: 30%;
+}
+
+.whiteRecTop {
+  background-color: white;
+  display: flex;
+  height: 43.75%;
+  width: 62.5%;
+  justify-content: flex-end;
+}
+
+.whiteCuadBottom {
+  background-color: white;
+  display: flex;
+  height: 43.75%;
+  width: 30%;
+  align-items: flex-end;
+}
+
+.whiteRecBottom {
+  background-color: white;
+  display: flex;
+  height: 43.75%;
+  width: 62.5%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.redRec {
+  background-color: rgb(255, 39, 41);
+  height: 87%;
+  width: 95%;
+}
+
+.redCuad {
+  background-color: rgb(255, 39, 41);
+  height: 87%;
+  width: 90%;
+}

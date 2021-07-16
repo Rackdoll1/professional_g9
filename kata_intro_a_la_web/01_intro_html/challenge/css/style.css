@@ -1,0 +1,27 @@
+/*
+  Todo este bloque se llama "Declaración"
+*/
+body {
+  background-color: rgb(250, 230, 243);
+}
+
+/*
+  Se compone de un selector, una propiedad y su valor.
+*/
+
+h1 {
+  color: rgb(47, 123, 125);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(23, 124, 106);
+}
+
+h3 {
+  color: rgb(10, 71, 66);
+}
+
+li {
+  color: rgb(96, 0, 86);
+}
